@@ -1,0 +1,11 @@
+.list {
+  margin-top: 1rem;
+  text-align: left;
+  list-style: none;
+}
+.checkbox_btn{
+  width: 20px;
+  height: 20px;
+  /* border-radius: 25px;
+  border-color: darkcyan; */
+}

@@ -1,0 +1,28 @@
+.item {
+  font-family: monospace;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: lightgray;
+}
+
+.close {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  align-self: center;
+  position: relative;
+  left: -30px;
+  top: -3px;
+  text-align: center;
+  line-height: 27px;
+}
+
+.close:hover {
+  color: red;
+}
